@@ -2,9 +2,9 @@
 
 ## 🧠 Project overview
 
-This project looks at **UK internet retail sales over time** and tries to answer a simple question:
+This project looks at UK internet retail sales over time and tries to answer a simple question:
 
-What drives online retail sales, and how did Covid change people's shopping behaviour?
+**What drives online retail sales, and how did Covid change people's shopping behaviour?**
 
 Using time series data on monthly UK internet sales, I build a simple, explainable model that links
 current online sales to past sales, Covid, and store types (for example, food vs clothing stores).
@@ -81,4 +81,5 @@ In this section I translate the model output into plain English:
   *(Here you can add 1–2 bullets about which store types performed better or worse, based on your results.)*
 
 ---
+
 
