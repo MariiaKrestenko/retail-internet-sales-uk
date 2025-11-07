@@ -4,22 +4,19 @@
 
 This project looks at **UK internet retail sales over time** and tries to answer a simple question:
 
-> What drives online retail sales, and how did Covid change people's shopping behaviour?
+What drives online retail sales, and how did Covid change people's shopping behaviour?
 
 Using time series data on monthly UK internet sales, I build a simple, explainable model that links
-current online sales to **past sales, Covid, and store types** (for example, food vs clothing stores).
-
-The goal is not just to get a prediction, but to **understand the patterns** behind it in a way that
-non-technical people can follow.
+current online sales to past sales, Covid, and store types (for example, food vs clothing stores).
 
 ---
 
 ## 📦 Data
 
-- **Source:** [Office for National Statistics (ONS) – UK internet sales data]  
+- **Source:** [Office for National Statistics (ONS) – UK internet sales data](https://www.ons.gov.uk/businessindustryandtrade/retailindustry/datasets/retailsalesindexinternetsales)  
 - **Frequency:** Monthly  
 - **Location:** United Kingdom  
-- **Target:** Internet retail sales (value index or £, depending on the series)  
+- **Target:** Internet retail sales in £  
 
 Each row represents **one month**, with columns such as:
 
@@ -28,8 +25,6 @@ Each row represents **one month**, with columns such as:
 - Time-related features (month, year)  
 - Covid period indicator (0 = non-Covid month, 1 = Covid month)  
 - Lagged values of internet sales (last month, last year)
-
-*(If you can’t include the raw data, you can link to the ONS page and/or keep a small sample.)*
 
 ---
 
@@ -45,7 +40,7 @@ In particular, I want to:
 
 ---
 
-## 🔧 Methods (in plain language)
+## 🔧 Methods
 
 I use **multiple linear regression (OLS)** as a simple, transparent model:
 
@@ -65,7 +60,7 @@ Key features in the model:
 
 ---
 
-## 🔍 Main findings (for non-data people)
+## 🔍 Main findings
 
 In this section I translate the model output into plain English:
 
@@ -86,3 +81,4 @@ In this section I translate the model output into plain English:
   *(Here you can add 1–2 bullets about which store types performed better or worse, based on your results.)*
 
 ---
+
