@@ -1,6 +1,6 @@
 # UK Internet Retail Sales – Explaining and Predicting Online Sales Over Time 📈
 
-## 🧠 Project overview
+##  Project overview
 
 This project looks at UK internet retail sales over time and tries to answer a simple question:
 
@@ -11,7 +11,7 @@ current online sales to past sales, Covid, and store types (for example, food vs
 
 ---
 
-## 📦 Data
+##  Data
 
 - **Source:** [Office for National Statistics (ONS) – UK internet sales data](https://www.ons.gov.uk/businessindustryandtrade/retailindustry/datasets/retailsalesindexinternetsales)  
 - **Frequency:** Monthly  
@@ -28,7 +28,7 @@ Each row represents **one month**, with columns such as:
 
 ---
 
-## 🎯 Modelling goal
+##  Modelling goal
 
 The aim of the model is to **explain and predict UK internet retail sales over time**.  
 In particular, I want to:
@@ -40,7 +40,7 @@ In particular, I want to:
 
 ---
 
-## 🔧 Methods
+##  Methods
 
 I use **multiple linear regression (OLS)** as a simple, transparent model:
 
@@ -60,7 +60,7 @@ Key features in the model:
 
 ---
 
-## 🔍 Main findings
+##  Main findings
 
 In this section I translate the model output into plain English:
 
@@ -81,5 +81,6 @@ In this section I translate the model output into plain English:
   *(Here you can add 1–2 bullets about which store types performed better or worse, based on your results.)*
 
 ---
+
 
 
