@@ -1,4 +1,4 @@
-# UK Internet Retail Sales – Explaining and Predicting Online Sales Over Time 📈
+# UK Internet Retail Sales – Explaining and Predicting Online Sales Over Time 
 
 ##  Project overview
 
@@ -81,6 +81,7 @@ In this section I translate the model output into plain English:
   *(Here you can add 1–2 bullets about which store types performed better or worse, based on your results.)*
 
 ---
+
 
 
 
